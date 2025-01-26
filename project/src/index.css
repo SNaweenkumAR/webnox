@@ -1,0 +1,10 @@
+@import "tailwindcss";
+@import "../node_modules/slick-carousel/slick/slick.css";
+@import "../node_modules/slick-carousel/slick/slick-theme.css";
+
+.slide1{
+    background-image: url('https://images.pexels.com/photos/4176036/pexels-photo-4176036.jpeg?auto=compress&cs=tinysrgb&w=600');
+}
+.slide2{
+    background-image: url('https://images.pexels.com/photos/4176036/pexels-photo-4176036.jpeg?auto=compress&cs=tinysrgb&w=600');
+}
