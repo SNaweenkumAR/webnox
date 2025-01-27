@@ -38,7 +38,7 @@ const Blog = () => {
   ];
 
   return (
-    <div className="py-10 px-6 sm:px-8 md:px-16 lg:px-24 bg-gray-50">
+    <div id="blog" className="py-10 px-6 sm:px-8 md:px-16 lg:px-24 bg-gray-50">
     
       <div className="text-center mb-10">
         <p className="text-lg font-semibold text-blue-600 mb-2">WHY CHOOSE US</p>

@@ -4,7 +4,7 @@ import AboutCard from './AboutCard';
 
 const About = () => {
   return (
-    <div className="py-10 px-6 sm:px-16 md:px-24">
+    <div id='about' className="py-10 px-6 sm:px-16 md:px-24">
     
       <div className="text-center mb-10">
         <h3 className="text-lg font-semibold text-blue-600 mb-2">Why Choose Us</h3>

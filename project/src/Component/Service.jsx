@@ -14,10 +14,10 @@ const ServiceCarousel = () => {
 
   return (
     
-    <div className="py-10 px-6 sm:px-16 md:px-24">
-      {/* Carousel */}
+    <div id="service"className=" py-10 px-6 sm:px-16 md:px-24">
+
       <Slider {...settings}>
-        {/* Slide 1 */}
+   
         <div className="slide1 relative bg-cover bg-center bg-no-repeat" style={{ backgroundImage: "url('https://images.pexels.com/photos/4176036/pexels-photo-4176036.jpeg?auto=compress&cs=tinysrgb&w=600')" }}>
           <div className="absolute inset-0 bg-black opacity-50"></div>
           <div className="relative z-10 text-center text-white py-20">
@@ -28,9 +28,9 @@ const ServiceCarousel = () => {
             </p>
           </div>
 
-          {/* Service Boxes after the p tag */}
+         
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-10 mb-20 mt-10 relative z-10">
-            {/* First Box */}
+        
             <div className="flex flex-col items-center bg-white p-6 rounded-lg shadow-lg">
               <div className="w-24 h-24 rounded-full bg-amber-100 flex justify-center items-center mb-4">
                 <Home size={40} className="text-blue-600" />
@@ -41,7 +41,7 @@ const ServiceCarousel = () => {
               </p>
             </div>
 
-            {/* Second Box */}
+           
             <div className="flex flex-col items-center bg-white p-6 rounded-lg shadow-lg">
               <div className="w-24 h-24 rounded-full bg-amber-100 flex justify-center items-center mb-4">
                 <Monitor size={40} className="text-blue-600" />
@@ -52,7 +52,7 @@ const ServiceCarousel = () => {
               </p>
             </div>
 
-            {/* Third Box */}
+        
             <div className="flex flex-col items-center bg-white p-6 rounded-lg shadow-lg">
               <div className="w-24 h-24 rounded-full bg-amber-100 flex justify-center items-center mb-4">
                 <Briefcase size={40} className="text-blue-600" />
@@ -65,7 +65,7 @@ const ServiceCarousel = () => {
           </div>
         </div>
 
-        {/* Slide 2 */}
+
         <div className="slide2 relative bg-cover bg-center bg-no-repeat" style={{ backgroundImage: "url('https://images.pexels.com/photos/1149792/pexels-photo-1149792.jpeg')" }}>
           <div className="absolute inset-0 bg-black opacity-50"></div>
           <div className="relative z-10 text-center text-white py-20">
@@ -76,9 +76,9 @@ const ServiceCarousel = () => {
             </p>
           </div>
 
-          {/* Service Boxes after the p tag */}
+          
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-10 mb-20 mt-10 relative z-10">
-            {/* First Box */}
+      
             <div className="flex flex-col items-center bg-white p-6 rounded-lg shadow-lg">
               <div className="w-24 h-24 rounded-full bg-amber-100 flex justify-center items-center mb-4">
                 <Home size={40} className="text-blue-600" />
@@ -89,7 +89,7 @@ const ServiceCarousel = () => {
               </p>
             </div>
 
-            {/* Second Box */}
+         
             <div className="flex flex-col items-center bg-white p-6 rounded-lg shadow-lg">
               <div className="w-24 h-24 rounded-full bg-amber-100 flex justify-center items-center mb-4">
                 <Monitor size={40} className="text-blue-600" />
@@ -100,7 +100,7 @@ const ServiceCarousel = () => {
               </p>
             </div>
 
-            {/* Third Box */}
+      
             <div className="flex flex-col items-center bg-white p-6 rounded-lg shadow-lg">
               <div className="w-24 h-24 rounded-full bg-amber-100 flex justify-center items-center mb-4">
                 <Briefcase size={40} className="text-blue-600" />
@@ -113,7 +113,7 @@ const ServiceCarousel = () => {
           </div>
         </div>
 
-        {/* Additional slides can go here */}
+       
       </Slider>
     </div>
     

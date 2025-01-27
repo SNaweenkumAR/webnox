@@ -4,7 +4,7 @@ import { Brush, Zap, RefreshCw } from 'lucide-react';
 
 function Hero() {
   return (
-    <div className="Hero">
+    <div  className="Hero" id='home'>
       <HeroCarousel />
 
       <div className="w-full min-h-[700px] bg-blue-400 py-10 px-6 sm:px-16 md:px-24 ">

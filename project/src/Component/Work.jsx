@@ -6,7 +6,7 @@ const Work = () => {
   return (
 <>
 
-    <div
+    <div  id="work"
       className="relative bg-cover bg-center h-screen flex items-center justify-center text-center"
       style={{
         backgroundImage:

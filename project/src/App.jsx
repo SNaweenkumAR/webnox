@@ -9,20 +9,18 @@ import Blog from "./Component/Blog";
 import Footer from "./Component/Footer";
 
 function App() {
-  
-
   return (
-       <div>
-           <Navbar/>
-           <Hero/>
-           <About/>
-           <Service/>
-           <Team/>
-           <Work/>
-           <Blog/>
-           <Footer/>
-       </div>
-  )
+    <div>
+      <Navbar />
+      <Hero id="home" />
+      <About id="about" />
+      <Service id="service" />
+      <Team id="team" />
+      <Work id="work" />
+      <Blog id="blog" />
+      <Footer />
+    </div>
+  );
 }
 
-export default App
+export default App;

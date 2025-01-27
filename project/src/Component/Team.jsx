@@ -33,7 +33,7 @@ const Team = () => {
   };
 
   return (
-    <div className="py-10 px-6 sm:px-16 md:px-24">
+    <div id='team' className="py-10 px-6 sm:px-16 md:px-24">
       
       <div className="text-center mb-10">
         <p className="text-lg font-semibold text-blue-600 mb-2">MEET OUR</p>
